@@ -1,0 +1,6 @@
+.cloudImage img{
+    z-index: 11;
+    max-width: 100px;
+	min-height: 80px;
+    opacity: 0.8;
+}

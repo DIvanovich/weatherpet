@@ -1,0 +1,33 @@
+.picturesBgd {
+
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+	min-height: 100px;
+    border-radius: 15px;
+    display: flex;
+    flex: 1 1 30%;
+
+}
+
+.loading {
+    position: absolute;
+    z-index: 11;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.picturesBgd img{
+
+    transition: transform 0.5s ease-out;
+	object-fit: cover;
+    width: 100%;
+	min-height: 100px;
+    
+}
+
+.picturesBgd img:hover {
+
+    transform: scale(1.2);
+}
