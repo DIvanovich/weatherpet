@@ -259,7 +259,7 @@ export class App extends React.Component{
                 <div className='content' onClick={this.modalSwitch}>
                   <div className='contentData'>
 
-                    <DivData text={`${Math.round(this.state.fetchData.main.temp)}°C`} size={'24px'}/>
+                    <DivData text={`${Math.round(this.state.fetchData.main.temp)}°C`} size={'34px'}/>
                     <DivData text={this.state.fetchData.name} size={'30px'} />
                     <DivData text={this.state.fetchData.weather[0].main} size={'24px'}/>
                     <DivData text={`Feels: ${Math.round(this.state.fetchData.main.feels_like)}°C`} size={'24px'}/>
